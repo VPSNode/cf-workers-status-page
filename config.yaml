@@ -2,7 +2,7 @@ settings:
   title: 'Status Page'
   url: 'https://status.vpsnode.org' # used for Slack messages
   logo: 'https://cdn.discordapp.com/icons/894660129935491123/3168de2d150850253c47e4853d85044d.png' # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
+  daysInHistogram: 30 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
