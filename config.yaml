@@ -39,3 +39,17 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+  
+  - id: node1
+    name: 'Node 1'
+    url: 'https://node1.vpsnode.org:8080/api/servers'
+    method: GET
+    expectStatus: 401
+    linkable: false # allows the title to be a link, default=true
+  
+  - id: node1
+    name: 'Node 2'
+    url: 'https://node2.vpsnode.org:8080/api/servers'
+    method: GET
+    expectStatus: 401
+    linkable: false # allows the title to be a link, default=true
